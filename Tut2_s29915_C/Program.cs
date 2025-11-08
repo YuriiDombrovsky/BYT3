@@ -1,30 +1,27 @@
 ﻿using Tut2_s29915;
 
-// Create a Sphere with radius 5
-IShape sphere = new Sphere(5);
-Console.WriteLine("Sphere:");
-Console.WriteLine($"Area: {sphere.CalculateArea():F3}");
-Console.WriteLine($"Volume: {sphere.CalculateVolume():F3}");
-Console.WriteLine();
+//Part 2
+Console.Write("Enter number: ");
+double a = Convert.ToDouble(Console.ReadLine());
 
-// Create a Cylinder with radius 3 and height 7
-IShape cylinder = new Cylinder(3, 7);
-Console.WriteLine("Cylinder:");
-Console.WriteLine($"Area: {cylinder.CalculateArea():F3}");
-Console.WriteLine($"Volume: {cylinder.CalculateVolume():F3}");
-Console.WriteLine();
+Console.Write("Enter number: ");
+double b = Convert.ToDouble(Console.ReadLine());
 
-// Create a Rectangle with length 4 and width 8
-IShape rectangle = new Rectangle(4, 8);
-Console.WriteLine("Rectangle:");
-Console.WriteLine($"Area: {rectangle.CalculateArea():F3}");
-// Rectangle is a 2D shape, so volume is 0
-Console.WriteLine($"Volume: {rectangle.CalculateVolume():F3}");
-Console.WriteLine();
+Console.Write("Enter operation: ");
+//Rider auto generate
+char op = Convert.ToChar(Console.ReadLine() ?? string.Empty);
 
-// Create a Cube with side 4
-IShape cube = new Cube(4);
-Console.WriteLine("Cube:");
-Console.WriteLine($"Area: {cube.CalculateArea():F3}");
-Console.WriteLine($"Volume: {cube.CalculateVolume():F3}");
 
+try
+{
+    Calculator calc = new Calculator(a, b, op);
+    Console.WriteLine($"\nResult: {a} {op} {b} = {calc.Calculate():F3}");
+}
+catch (DivideByZeroException e)
+{
+    Console.WriteLine("Divide by zero");
+}
+catch (InvalidOperationException e)
+{
+    Console.WriteLine("InvalidOperation");
+}
