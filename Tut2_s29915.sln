@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut2_s29915_C", "Tut2_s29915_C\Tut2_s29915_C.csproj", "{6915C442-D338-4C31-8F68-0B7EA7CDE8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut2_s29915", "Tut2_s29915\Tut2_s29915.csproj", "{405E42E8-841C-48E5-A50F-F30D484EE50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut2_s29915.Tests", "Tut2_s29915.Tests\Tut2_s29915.Tests.csproj", "{DF1A0F3B-4E9A-41F0-815E-FA58D4D4F0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6915C442-D338-4C31-8F68-0B7EA7CDE8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6915C442-D338-4C31-8F68-0B7EA7CDE8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6915C442-D338-4C31-8F68-0B7EA7CDE8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6915C442-D338-4C31-8F68-0B7EA7CDE8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405E42E8-841C-48E5-A50F-F30D484EE50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405E42E8-841C-48E5-A50F-F30D484EE50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405E42E8-841C-48E5-A50F-F30D484EE50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405E42E8-841C-48E5-A50F-F30D484EE50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1A0F3B-4E9A-41F0-815E-FA58D4D4F0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1A0F3B-4E9A-41F0-815E-FA58D4D4F0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1A0F3B-4E9A-41F0-815E-FA58D4D4F0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1A0F3B-4E9A-41F0-815E-FA58D4D4F0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Tut2_s20123_Solution</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Tut2_s29915.Tests\Tut2_s29915.Tests.csproj" />
+      <ProjectReference Include="..\Tut2_s29915\Tut2_s29915.csproj" />
+    </ItemGroup>
+
+</Project>
